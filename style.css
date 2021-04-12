@@ -1,0 +1,33 @@
+body {
+  display: grid;
+  place-content: center;
+  padding: 1rem;
+  row-gap: 0.8rem;
+}
+
+h1 {
+  font-size: 4em;
+  letter-spacing: 0.3rem;
+}
+
+.inputtext {
+  border-radius: 9px;
+  border-width: medium;
+  background-color: rgb(237, 236, 236);
+  padding: 0.5rem;
+}
+
+.inputtext::placeholder {
+  font-weight: lighter;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-weight: 700;
+  font-size: large;
+  background-color: transparent;
+  color: black;
+  border-radius: 7px;
+  margin: auto;
+  cursor: pointer;
+}
